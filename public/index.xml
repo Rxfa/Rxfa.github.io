@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;Rxfa/&gt;</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on &lt;Rxfa/&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Mar 2024 00:20:20 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 18 Mar 2024 00:20:20 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I&amp;rsquo;m a Computer Science and Engineering undergraduate student with a lot of interest in all things web.</description>
+    </item>
+    <item>
+      <title>Revenge</title>
+      <link>http://localhost:1313/posts/tryhackme-revenge/</link>
+      <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tryhackme-revenge/</guid>
+      <description>This is revenge! You&amp;rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&amp;rsquo;re just here for the money. Can you fulfill your end of the bargain? Link to heading Approach Link to heading Reconnaissance &amp;amp; Enumeration Link to heading So, we start of by read the message Billy Joel left us to read and this is what we find:</description>
+    </item>
+  </channel>
+</rss>
