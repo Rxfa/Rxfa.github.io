@@ -6,8 +6,15 @@
     <description>Recent content in Posts on &lt;Rxfa/&gt;</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Mar 2024 23:36:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 17:20:20 +0000</lastBuildDate>
     <atom:link href="http://rxfa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Saint John</title>
+      <link>http://rxfa.github.io/posts/sadservers_1_saint_john/</link>
+      <pubDate>Thu, 09 May 2024 17:20:20 +0000</pubDate>
+      <guid>http://rxfa.github.io/posts/sadservers_1_saint_john/</guid>
+      <description>A developer created a testing program that is continuously writing to a log file /var/log/bad.log and filling up disk. You can check for example with tail -f /var/log/bad.log. This program is no longer needed. Find it and terminate it. Link to heading So, since we know that this program is continuously writing to a log file we can use the lsof command. This command stands for “list open files” and what it does is that it lists open files opened by processes.</description>
+    </item>
     <item>
       <title>Revenge</title>
       <link>http://rxfa.github.io/posts/tryhackme-revenge/</link>

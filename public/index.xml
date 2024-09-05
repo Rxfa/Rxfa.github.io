@@ -16,6 +16,13 @@
       <description>I&amp;rsquo;m a Computer Science and Engineering student with a genuine passion for computers and understanding how they work. I started this blog to learn in public and improve my communication skills. I&amp;rsquo;m particularly fascinated by distributed systems and platform engineering, and I look forward to exploring these interests further and work in these areas in the (hopefully, near) future.&#xA;Experience Link to heading Junior Researcher Link to heading Oct. 2024 - Jun.</description>
     </item>
     <item>
+      <title>Saint John</title>
+      <link>http://rxfa.github.io/posts/sadservers_1_saint_john/</link>
+      <pubDate>Thu, 09 May 2024 17:20:20 +0000</pubDate>
+      <guid>http://rxfa.github.io/posts/sadservers_1_saint_john/</guid>
+      <description>A developer created a testing program that is continuously writing to a log file /var/log/bad.log and filling up disk. You can check for example with tail -f /var/log/bad.log. This program is no longer needed. Find it and terminate it. Link to heading So, since we know that this program is continuously writing to a log file we can use the lsof command. This command stands for “list open files” and what it does is that it lists open files opened by processes.</description>
+    </item>
+    <item>
       <title>Revenge</title>
       <link>http://rxfa.github.io/posts/tryhackme-revenge/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
