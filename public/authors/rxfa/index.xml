@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rxfa on &lt;Rxfa/&gt;</title>
-    <link>http://localhost:1313/authors/rxfa/</link>
+    <link>http://rxfa.github.io/authors/rxfa/</link>
     <description>Recent content in Rxfa on &lt;Rxfa/&gt;</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Mar 2024 23:36:23 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/rxfa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rxfa.github.io/authors/rxfa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revenge</title>
-      <link>http://localhost:1313/posts/tryhackme-revenge/</link>
+      <link>http://rxfa.github.io/posts/tryhackme-revenge/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tryhackme-revenge/</guid>
+      <guid>http://rxfa.github.io/posts/tryhackme-revenge/</guid>
       <description>This is revenge! You&amp;rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&amp;rsquo;re just here for the money. Can you fulfill your end of the bargain? Link to heading Approach Link to heading Reconnaissance &amp;amp; Enumeration Link to heading So, we start of by read the message Billy Joel left us to read and this is what we find:</description>
     </item>
   </channel>

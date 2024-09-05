@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on &lt;Rxfa/&gt;</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://rxfa.github.io/tags/</link>
     <description>Recent content in Tags on &lt;Rxfa/&gt;</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Mar 2024 23:36:23 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://rxfa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Medium</title>
-      <link>http://localhost:1313/tags/medium/</link>
+      <link>http://rxfa.github.io/tags/medium/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://localhost:1313/tags/medium/</guid>
+      <guid>http://rxfa.github.io/tags/medium/</guid>
       <description></description>
     </item>
     <item>
       <title>TryHackMe</title>
-      <link>http://localhost:1313/tags/tryhackme/</link>
+      <link>http://rxfa.github.io/tags/tryhackme/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tryhackme/</guid>
+      <guid>http://rxfa.github.io/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/tags/web/</link>
+      <link>http://rxfa.github.io/tags/web/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web/</guid>
+      <guid>http://rxfa.github.io/tags/web/</guid>
       <description></description>
     </item>
   </channel>
