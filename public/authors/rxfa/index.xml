@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rxfa on &lt;Rxfa/&gt;</title>
-    <link>http://rxfa.github.io/authors/rxfa/</link>
+    <link>http://localhost:1313/authors/rxfa/</link>
     <description>Recent content in Rxfa on &lt;Rxfa/&gt;</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 May 2024 17:20:20 +0000</lastBuildDate>
-    <atom:link href="http://rxfa.github.io/authors/rxfa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 04:08:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/rxfa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Saskatoon</title>
+      <link>http://localhost:1313/posts/sadservers_2_saskatoon/</link>
+      <pubDate>Fri, 06 Sep 2024 04:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sadservers_2_saskatoon/</guid>
+      <description>There&amp;rsquo;s a web server access log file at /home/admin/access.log. The file consists of one line per HTTP request, with the requester&amp;rsquo;s IP address at the beginning of each line. Link to heading Find what&amp;rsquo;s the IP address that has the most requests in this file (there&amp;rsquo;s no tie; the IP is unique). Write the solution into a file /home/admin/highestip.txt. For example, if your solution is &amp;ldquo;1.2.3.4&amp;rdquo;, you can do echo &amp;quot;1.</description>
+    </item>
     <item>
       <title>Saint John</title>
-      <link>http://rxfa.github.io/posts/sadservers_1_saint_john/</link>
-      <pubDate>Thu, 09 May 2024 17:20:20 +0000</pubDate>
-      <guid>http://rxfa.github.io/posts/sadservers_1_saint_john/</guid>
+      <link>http://localhost:1313/posts/sadservers_1_saint_john/</link>
+      <pubDate>Thu, 05 Sep 2024 04:20:20 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sadservers_1_saint_john/</guid>
       <description>A developer created a testing program that is continuously writing to a log file /var/log/bad.log and filling up disk. You can check for example with tail -f /var/log/bad.log. This program is no longer needed. Find it and terminate it. Link to heading So, since we know that this program is continuously writing to a log file we can use the lsof command. This command stands for “list open files” and what it does is that it lists open files opened by processes.</description>
     </item>
     <item>
       <title>Revenge</title>
-      <link>http://rxfa.github.io/posts/tryhackme-revenge/</link>
+      <link>http://localhost:1313/posts/tryhackme-revenge/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://rxfa.github.io/posts/tryhackme-revenge/</guid>
+      <guid>http://localhost:1313/posts/tryhackme-revenge/</guid>
       <description>This is revenge! You&amp;rsquo;ve been hired by Billy Joel to break into and deface the Rubber Ducky Inc. web application. He was fired for probably good reasons but who cares, you&amp;rsquo;re just here for the money. Can you fulfill your end of the bargain? Link to heading Approach Link to heading Reconnaissance &amp;amp; Enumeration Link to heading So, we start of by read the message Billy Joel left us to read and this is what we find:</description>
     </item>
   </channel>

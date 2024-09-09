@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on &lt;Rxfa/&gt;</title>
-    <link>http://rxfa.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on &lt;Rxfa/&gt;</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 May 2024 17:20:20 +0000</lastBuildDate>
-    <atom:link href="http://rxfa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 04:08:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easy</title>
-      <link>http://rxfa.github.io/tags/easy/</link>
-      <pubDate>Thu, 09 May 2024 17:20:20 +0000</pubDate>
-      <guid>http://rxfa.github.io/tags/easy/</guid>
+      <link>http://localhost:1313/tags/easy/</link>
+      <pubDate>Fri, 06 Sep 2024 04:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/easy/</guid>
       <description></description>
     </item>
     <item>
       <title>SadServers</title>
-      <link>http://rxfa.github.io/tags/sadservers/</link>
-      <pubDate>Thu, 09 May 2024 17:20:20 +0000</pubDate>
-      <guid>http://rxfa.github.io/tags/sadservers/</guid>
+      <link>http://localhost:1313/tags/sadservers/</link>
+      <pubDate>Fri, 06 Sep 2024 04:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sadservers/</guid>
       <description></description>
     </item>
     <item>
       <title>Medium</title>
-      <link>http://rxfa.github.io/tags/medium/</link>
+      <link>http://localhost:1313/tags/medium/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://rxfa.github.io/tags/medium/</guid>
+      <guid>http://localhost:1313/tags/medium/</guid>
       <description></description>
     </item>
     <item>
       <title>TryHackMe</title>
-      <link>http://rxfa.github.io/tags/tryhackme/</link>
+      <link>http://localhost:1313/tags/tryhackme/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://rxfa.github.io/tags/tryhackme/</guid>
+      <guid>http://localhost:1313/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://rxfa.github.io/tags/web/</link>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Sun, 17 Mar 2024 23:36:23 +0000</pubDate>
-      <guid>http://rxfa.github.io/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
   </channel>

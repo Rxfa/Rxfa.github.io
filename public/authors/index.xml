@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on &lt;Rxfa/&gt;</title>
-    <link>http://rxfa.github.io/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on &lt;Rxfa/&gt;</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 May 2024 17:20:20 +0000</lastBuildDate>
-    <atom:link href="http://rxfa.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 04:08:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rxfa</title>
-      <link>http://rxfa.github.io/authors/rxfa/</link>
-      <pubDate>Thu, 09 May 2024 17:20:20 +0000</pubDate>
-      <guid>http://rxfa.github.io/authors/rxfa/</guid>
+      <link>http://localhost:1313/authors/rxfa/</link>
+      <pubDate>Fri, 06 Sep 2024 04:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/rxfa/</guid>
       <description></description>
     </item>
   </channel>
